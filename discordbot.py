@@ -21,7 +21,6 @@ async def ping(ctx):
 @bot.command()
 async def credit(ctx):
     await ctx.send('Manju San -たいやき-が作ったよ。')
-    await channel.send(file=discord.File('Manju-S-6270/Discordpy/sowh.png'))
 
 
 @bot.command()
