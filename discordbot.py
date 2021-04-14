@@ -18,4 +18,9 @@ async def ping(ctx):
     await ctx.send('pong')
 
 
+@bot.command()
+async def Manju(ctx):
+    await ctx.send('Manju Sanはもっと機能を増やそうと思ってるよ！ Discordで意見をください！ https://discord.gg/vfKVq8pU')
+
+    
 bot.run(token)
