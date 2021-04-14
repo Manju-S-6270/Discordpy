@@ -19,8 +19,8 @@ async def ping(ctx):
 
 
 @bot.command()
-async def xs(ctx):
-    await ctx.send('pong1')
+async def credit(ctx):
+    await ctx.send('Manju San -たいやき-が作ったよ。')
 
 
 @bot.command()
