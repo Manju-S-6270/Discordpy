@@ -28,9 +28,8 @@ async def manju(ctx):
     await ctx.send('Manju Sanはもっと機能を増やそうと思ってるよ！ Discordで意見をください！ https://discord.gg/vfKVq8pU')
 
 
-@bot.command()
-async def 暇やな:
-    await send(それな。ほんとやることないよなぁ。)
+if message.content == 'おはよう':
+await message.channel.send('おっはよ～！')
 
 
     
